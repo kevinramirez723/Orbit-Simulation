@@ -78,7 +78,8 @@ def main():
     #planets.append(P_planet)
     #G_planet = Planet((-3.613e8, 0), (1.9e2, 0), 2.738e6, 2.02e23, GREEN)
     #planets.append(G_planet)
-    #conserve_momentum(planets)
+
+    conserve_momentum(planets)
 
     while run:
         clock.tick(120)
